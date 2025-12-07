@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <style>
+        .top-Links {
+            text-align: right;
+        }
+        
+        .search-bar {
+            width: 300px;
+            height: 20px;
+            
+            text-align: left;
+            border-radius: 50px;
+            margin: 0 auto; /*this centers it, shortcut */
+            margin-bottom: 10px;
+            margin-top:10px;
+
+        }
+        .search-button {
+         border-radius: 20px 20px 20px 20px; /* Rounds only the right corners of the button */
+}
+        
+    </style>
+    <body>
+     <nav class="top-Links">
+         <a href="index.html">Google Search</a>
+     </nav>
+    <div class="search-bar">
+    <form  action="https://image.google.com/search">
+        <input class="search-bar" type="text" name="q" width="100px"><br>
+        <input type="hidden" name="udm" value="2">
+        <input class="search-button" type="submit" value="Google Image Search" width="100px">
+    </form>
+    </div>
+
+    </body>
+</html>
