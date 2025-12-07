@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <style>
+        .top-Links {
+            text-align: right;
+        }
+        
+        .search-bar {
+            width: 300px;
+            height: 20px;
+            
+            text-align: left;
+            border-radius: 50px;
+            margin: 0 auto; /*this centers it, shortcut */
+            margin-bottom: 10px;
+            margin-top:10px;
+
+        }
+        .search-button {
+         border-radius: 20px 20px 20px 20px; /* Rounds only the right corners of the button */
+         text-align:"center"
+}
+        
+    </style>
+    <body>
+     <nav class="top-Links">
+         <a href="ImageSearch.html">Image Search</a></li>
+         <a href="AdvancedSearch.html">Advanced Search</a></li>
+     </nav>
+    <div class="search-bar">
+    <form  action="https://www.google.com/search">
+        <input class="search-bar" type="text" name="q" width="100px"><br>
+        <input class="search-button" type="submit" value="Google Search" width="100px">
+        <input class="search-button" type="submit" name="btnI" value="I'm Feeling Lucky" formaction="https://www.google.com/search?btnI=1">
+    </form>
+    </div>
+
+    </body>
+</html>
