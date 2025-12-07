@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+    </head>
+    <style>
+        nav {
+            text-align: right;
+            width: 200;
+        }
+        nav li {
+            display: inline-block;
+        }
+        .submit-button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+}
+    </style>
+    <body>
+        <nav>
+            <li><a href="index.html">Search</a></li>
+        </nav>
+        <form action="https://www.google.com/search" method="GET">
+            <input type="text" name="as_q" placeholder="“all these words:”"><br>
+            <input type="text" name="as_epq" placeholder="this exact word or phrase:"><br>
+            <input type="text" name="as_oq" placeholder="“any of these words:”"><br>
+            <input type="text" name="as_eq" placeholder="none of these words:"><br>
+            <input type="submit" class="submit-button" value="Google Search">
+            
+        </form>
+            
+        
+    </body>
+</html> 
